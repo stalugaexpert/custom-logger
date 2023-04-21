@@ -37,7 +37,7 @@ export class ConsoleLogger implements Logger {
       return
     }
 
-    this.log = console.log.bind(console)
+    this.log = console.warn.bind(console)
   }
 }
 
