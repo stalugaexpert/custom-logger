@@ -1,5 +1,9 @@
 # Custom logger
 
+NPM package:
+
+https://www.npmjs.com/package/custom-logger-prod
+
 ## Why it might be helpful
 
 This is a basic console.log abstraction, which removes console.logs when NODE_ENV process variable is set to 'production'. 
